@@ -21,6 +21,8 @@
 >
 > https://www.eula.club/%E4%BD%BF%E7%94%A8Grasscutter%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%90%AD%E5%BB%BA%E5%8E%9F%E7%A5%9E%E7%A7%81%E6%9C%8D.html
 >
+> https://www.rainkavik.com/archives/254/
+>
 > https://blog.tomys.top/2022-04/GenshinTJ/
 >
 > https://memorz.top/archives/112
@@ -122,7 +124,7 @@ https://github.com/gc-toolkit/GenshinLauncher
 > 每次更换服务端IP都需要重新安装证书http://mitm.it/
 
 ```bash
-mitmdump -s proxy.py
+mitmdump -s proxy.py -k --set block_global=false
 ```
 
 系统连接代理
